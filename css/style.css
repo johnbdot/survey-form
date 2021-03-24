@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+body {
+    background: #283040;
+    font-family: 'Lexend', sans-serif;
+    padding-bottom: 15px;
+}
+
+#main {
+    width: 50%;
+    margin: auto;
+}
+
+#header {
+    color: #989CA6;
+    text-align: center;
+    padding: 30px;
+}
+
+#title {
+    font-family: 'Train One', cursive;
+    line-height: 50%;
+}
+
+#survey-form {
+    border-radius: 20px;
+    background: #AC9787;
+    padding: 30px;
+}
+
+#name,
+#email,
+#number {
+    margin-bottom: 5px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+label,
+select,
+textarea,
+span {
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #906448;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+}
